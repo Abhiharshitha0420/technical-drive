@@ -1,0 +1,8 @@
+stu=["abhi","harikaa","abhiharika"]
+marks=[[10,20,30],[40,10,25],[14,56,30]]
+per=[]
+for i in marks:
+    d=sum(i)//3
+    per.append(d)
+for i in range(3):
+    print("{}.{}: {}%".format(i+1,stu[i],per[i]))
